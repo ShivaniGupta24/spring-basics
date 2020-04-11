@@ -23,7 +23,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                echo 'This is a minimal pipeline.'
+                echo 'This is a build stage.'
                 sh 'mvn clean package'
             }
         }
