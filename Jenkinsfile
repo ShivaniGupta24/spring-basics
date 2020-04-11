@@ -12,7 +12,7 @@ pipeline {
                     echo "M2_HOME = ${M2_HOME}"
                 '''
             }
-        }
+         }
 
          stage ('Test') {
                     steps {
