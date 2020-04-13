@@ -5,7 +5,7 @@ pipeline {
         jdk 'jdk8'
     }
     stages {
-        stage ('Initialize') {
+        stage ('Prepare') {
             steps {
                 sh '''
                     echo "M2_HOME = ${M2_HOME}"
